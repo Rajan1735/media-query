@@ -41,3 +41,16 @@
     width: 100%;
   }
 }/*# sourceMappingURL=style-2.css.map */
+
+
+
+@media (max-width: 1200px) {
+  [class^=row-] {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  [class^=box-] 
+    width: 100%;
+  }
+}
